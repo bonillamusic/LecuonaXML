@@ -1,8 +1,8 @@
 # LecuonaXML
 
->Archive of the public domain works of Ernesto Lecuona in MusicXML and MSCZ formats.
+>Archive of the public domain works of Ernesto Lecuona in MusicXML and MSCZ (and hopefully others in the future) formats.
 
-![GitHub stars](https://img.shields.io/github/stars/bonillamusic/GraingerXML?style=for-the-badge&logo=github) ![GitHub forks](https://img.shields.io/github/forks/bonillamusic/GraingerXML?style=for-the-badge&logo=github) ![GitHub issues](https://img.shields.io/github/issues/bonillamusic/GraingerXML?style=for-the-badge&logo=github) ![Last commit](https://img.shields.io/github/last-commit/bonillamusic/GraingerXML?style=for-the-badge&logo=github)
+![GitHub stars](https://img.shields.io/github/stars/bonillamusic/LecuonaXML?style=for-the-badge&logo=github) ![GitHub forks](https://img.shields.io/github/forks/bonillamusic/LecuonaXML?style=for-the-badge&logo=github) ![GitHub issues](https://img.shields.io/github/issues/bonillamusic/LecuonaXML?style=for-the-badge&logo=github) ![Last commit](https://img.shields.io/github/last-commit/bonillamusic/LecuonaXML?style=for-the-badge&logo=github)
 
 ## 📑 Table of Contents
 
@@ -17,7 +17,7 @@
 
 ## 📝 Description
 
-LecuonaXML is a dedicated digital archive containing the public domain musical works of Cuban composer Ernesto Lecuona (1895-1963). The repository solves the problem of finding clean, structured, and machine-readable digital scores of his compositions, making them easily accessible for modern performances, study, and digital preservation.
+LecuonaXML is a curated digital archive of public-domain works by Cuban composer Ernesto Lecuona (1895–1963), provided as open, machine-readable MusicXML files and native MuseScore (.mscz) scores. The repository collects cleanly engraved, interoperable scores intended for performance, study, computational musicology, and long-term digital preservation. Files are supplied in uncompressed .musicXML and .mscz formats to maximize compatibility with notation software and to preserve editable source layouts.
 
 ## ✨ Key Features
 
@@ -41,12 +41,13 @@ LecuonaXML is a dedicated digital archive containing the public domain musical w
 Contributions are welcome! Here's the standard flow:
 
 1. **Fork** the repository
-2. **Clone** your fork: `git clone https://github.com/bonillamusic/GraingerXML.git`
-3. **Branch**: `git checkout -b feature/your-feature` (score in musicXML format)
+2. **Clone** your fork: `git clone https://github.com/bonillamusic/LecuonaXML.git`
+3. **Branch**: `git checkout -b feature/your-feature` (score in musicXML format + other formats for notation software (e.g. MSCZ))
 4. **Commit**: `git commit -m 'feat: add some feature'`
 5. **Push**: `git push origin feature/your-feature`
 6. **Open** a pull request
 
+There are currently folders for .musicXML and .mscz file formats, but we are open to accepting scores in other software formats! (This also allows for more proprietary formatting to be preserved which is otherwise lost in the conversion to musicXML). Please use the uncompressed form (.musicXML) and NOT the compressed form (.mxl) for submissions.
 
 ## 📜 License
 
